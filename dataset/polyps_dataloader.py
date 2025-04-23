@@ -243,4 +243,21 @@ def to_numpy(tensor):
 #             "mask" : mask
 #         }
 #         return sample    
-     
+
+
+class TestResize:
+    def __init__(self, size):
+        self.size = (size, size)  # Ensure (width, height) format
+
+    def __call__(self, data):
+        image, mask = data["image"], data["mask"]
+        
+        # Resize with proper interpolation
+        image = cv2.resize(image, self.size, interpolation=cv2.INTER_LINEAR)
+        mask = cv2.resize(mask, self.size, interpolation=cv2.INTER_NEAREST)
+        
+        # Add channel dimension to mask if missing
+        if len(mask.shape) == 2:
+            mask = mask[:, :, np.newaxis]
+            
+        return {"image": image, "mask": mask}
