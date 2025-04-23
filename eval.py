@@ -129,7 +129,7 @@ def main():
         raise ValueError("Checkpoint not found: {}".format(args.model))
 
     test_transform = v2.Compose([
-        v2.Resize((256, 256)),
+        Resize((256)),
         GrayscaleNormalization(mean=0.5, std=0.5),
         ToTensor(),
     ])
