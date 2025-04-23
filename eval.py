@@ -15,8 +15,8 @@ from dataset.polyps_dataloader import *
 
 # Define test directories according to your train.py
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__)))
-DATA_DIR = os.path.join(ROOT_DIR, 'new_data/Kvasir-SEG')
-TEST_DIR = os.path.join(DATA_DIR, 'test')
+DATA_DIR = os.path.join(ROOT_DIR, '.')
+TEST_DIR = os.path.join(DATA_DIR, 'CVC-ClinicDB')
 TEST_IMGS_DIR = os.path.join(TEST_DIR, 'images')
 TEST_LABELS_DIR = os.path.join(TEST_DIR, 'masks')
 
@@ -129,6 +129,7 @@ def main():
         raise ValueError("Checkpoint not found: {}".format(args.model))
 
     test_transform = v2.Compose([
+        v2.Resize((256, 256)),
         GrayscaleNormalization(mean=0.5, std=0.5),
         ToTensor(),
     ])

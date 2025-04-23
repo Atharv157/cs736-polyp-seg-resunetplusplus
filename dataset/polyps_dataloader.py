@@ -15,8 +15,10 @@ from utils.polyps_augmentation import *
 
 class PolypsDataset(Dataset):
     def __init__(self, imgs_dir, labels_dir, transform=None):
-        self.imgs = sorted(glob.glob(os.path.join(imgs_dir, '*.jpg')))
-        self.masks = sorted(glob.glob(os.path.join(labels_dir, '*.jpg')))
+        # self.imgs = sorted(glob.glob(os.path.join(imgs_dir, '*.jpg')))
+        # self.masks = sorted(glob.glob(os.path.join(labels_dir, '*.jpg')))
+        self.imgs = sorted(glob.glob(os.path.join(imgs_dir, '*.tif')))
+        self.masks = sorted(glob.glob(os.path.join(labels_dir, '*.tif')))
         self.transform = transform
 
     def __len__(self):
