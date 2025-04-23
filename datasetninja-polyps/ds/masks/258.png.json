@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 288,
+        "width": 384
+    },
+    "objects": [
+        {
+            "id": 79221702,
+            "classId": 6503483,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-11-20T10:17:56.662Z",
+            "updatedAt": "2023-11-20T10:17:56.662Z",
+            "tags": [],
+            "classTitle": "polyp",
+            "bitmap": {
+                "data": "eJwBiAJ3/YlQTkcNChoKAAAADUlIRFIAAAD2AAAAqgEDAAAApJAgBwAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAIwSURBVHictddBcuMgEAVQUllkyRE4CkdDN4sWcxDVnIDZeZEKKdsCmuY3345r2L5Y4v9GKsU5F77car2Vsq08lJJXnkr5Xl9+eYP3q++2f1x9sQH/iF9sD1dfNPSQLwp4yIvtsawLZP5Z1gXf73+86Jm4HfB0s+Lq1gybGxljWV+gOx5Sao4zCN+I/0Heufwl/o84DCgcViwcFiAcBpS+E88vOgogHQWQjiY4OAg4OAg4OAjwlIMJDg4KGBwUMDgoYPSN+E78ID4HZJ5IAc/5HDCSgMqngIEEUD5t0I8+TUi7DqBdb/BDeSauN6hdb/Bd+048E1cbeNNemB/E1YgmVw9RIhuIk2+DB7JBP3kmPgaYBqQanH0MOA1ABQB+EL8QL8x34fMA1RkDfmswnn+XZv86f5YNL/K7D/nue5AIXG40LPyAA+4rP+DzgEdHBUtHBUtHBT/lyfaDFHjz8Hu/HQBv+4afkNEXBZon9L6+zRN6X+eTmiw/H6RIPBD3xM0Csv2ISjcLYH64dQHVI/Hwn90Ttwo885sF1helVVB7kRre3vQJe3vTR+MC1YPh+4sF1QJYQZbXgKyg3xZY728V2DwSD9hrP1ZBzY0CmhsnqLlRQJ2fVUD3SDwQxwG25jhAdxygOw4gPCHvjAMK94DllxIKKB0FHL60gA9faiDAhXiWHmY/pIMAu3QQwA1rvX3QcB7dL28PjoBTK95/U3n+ZzHeDkQtYpt8aCpb3K/k3A8z3ZOxRA8xaQAAAABJRU5ErkJggsz+DL4=",
+                "origin": [
+                    43,
+                    80
+                ]
+            }
+        }
+    ]
+}

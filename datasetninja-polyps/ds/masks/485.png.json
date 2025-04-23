@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 288,
+        "width": 384
+    },
+    "objects": [
+        {
+            "id": 79221990,
+            "classId": 6503483,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-11-20T10:18:41.924Z",
+            "updatedAt": "2023-11-20T10:18:41.924Z",
+            "tags": [],
+            "classTitle": "polyp",
+            "bitmap": {
+                "data": "eJwB8wEM/olQTkcNChoKAAAADUlIRFIAAACLAAAAlAEDAAAAmVdI8gAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAGbSURBVHicxdbBkYUgDAZgHQ9eduaVQAlbgqVBaZRiCRw9OGRXJSTk5711vKzHb1T+RASGoVxfg71etFoiykZmIootOYLbPMFth9CmZTyJOqSfnC7S0eaLEtLelHNeOpkjGHIpFEz4NgWTSlFEpRiZpMqJSYLNSC8mycpJVdYOLZVqfA9UY0lF00fiImeklxDX7ZAkVm2FRxLhVoxIKhZ3Z0ZSsbg7DmnRFN6R1xRt0tKKEWlqKL2huaENwvdoh3quupvwV5Ed8n9SsCV2Kdqqu7Q+pWTbdZc229Qu7bapdLTCIS23yD8lK7+d7hA8+JjiP9Byg8JNcpbwo2X8tPdo704TO78yztWMfwd1KOAMiDibIla0YtYVg/X/KztkhLXjJFN4gDWNcOXLuGRmXGt3WKQLTUjNkBtsC0wLkh4y4SaQcKtIuKGsA6QopFPEAVIwqRSh0LdQERUsI+1I9fgg8RPThCTxObyKL+RteFVRqFQrGoDUQYqzquMWZ1UnPM6ahDirxKpZgyJvM3AKfb4rQ+pXHe9Pzp5F60M/dcgTFB0TjEEAAAAASUVORK5CYIIl3td5",
+                "origin": [
+                    125,
+                    97
+                ]
+            }
+        }
+    ]
+}

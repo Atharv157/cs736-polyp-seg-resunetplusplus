@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 288,
+        "width": 384
+    },
+    "objects": [
+        {
+            "id": 79221651,
+            "classId": 6503483,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "inbox@datasetninja.com",
+            "createdAt": "2023-11-20T10:17:46.844Z",
+            "updatedAt": "2023-11-20T10:17:46.844Z",
+            "tags": [],
+            "classTitle": "polyp",
+            "bitmap": {
+                "data": "eJwBGAHn/olQTkcNChoKAAAADUlIRFIAAABSAAAARgEDAAAAZaVRVQAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAADASURBVHicjdNBDoQgDAVQJi5cegSP4tHkaByFI7BkQfwD2pavwcmwejG0Fvw6V9eE4nQB8MKpOoqX6izeqo+LH8AK5tPRtmvBdrpody2+SgF9kzaaxaF6FUdrc3kXp4fRre3bEGx9VRvozTpCG5S9jIy716G9jf/uYEf5ZQzt/7C72Xoe5PLi3K+/3a05kgOd19OduO5CnzeTE0WAHSkmgex7lPCMlQxdyBzDRM8jOdAe1+NcKOZJ4r+j/yKL7vgCX2IiEupKzHMAAAAASUVORK5CYIIWQ3uG",
+                "origin": [
+                    195,
+                    123
+                ]
+            }
+        }
+    ]
+}

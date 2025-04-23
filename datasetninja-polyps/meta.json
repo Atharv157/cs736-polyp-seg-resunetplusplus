@@ -1,0 +1,24 @@
+{
+    "classes": [
+        {
+            "title": "polyp",
+            "shape": "bitmap",
+            "color": "#BD10E0",
+            "geometry_config": {},
+            "id": 6503483,
+            "hotkey": ""
+        }
+    ],
+    "tags": [
+        {
+            "name": "sequence",
+            "value_type": "none",
+            "color": "#580F8A",
+            "id": 26560,
+            "hotkey": "",
+            "applicable_type": "all",
+            "classes": []
+        }
+    ],
+    "projectType": "images"
+}
